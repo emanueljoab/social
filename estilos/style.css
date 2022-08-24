@@ -20,7 +20,7 @@ body {
 
 main {
     position: relative;
-    height: 100vh;
+    height: 97vh;
 }
 
 section#telefone {
@@ -58,4 +58,18 @@ section#redes-sociais img:hover {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
     transition: transform .1s, border .1s;
+}
+
+footer {
+    text-align: center;    
+}
+
+footer a {
+    color: white;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
